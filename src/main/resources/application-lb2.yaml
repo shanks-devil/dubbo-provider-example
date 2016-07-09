@@ -1,0 +1,5 @@
+# dubbo configuration
+dubbo.registry:
+  address: zookeeper://127.0.0.1:2181;zookeeper://127.0.0.1:2182;zookeeper://127.0.0.1:2183
+  file: p1.properties
+dubbo.port: 20883
